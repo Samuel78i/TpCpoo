@@ -1,6 +1,5 @@
-package ex2;
+package tp4.ex2;
 
-import java.util.List;
 import java.util.Random;
 
 public class RandGen implements Generateur{

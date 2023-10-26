@@ -1,4 +1,4 @@
-package ex2;
+package tp4.ex2;
 
 public class GenLib {
     public static RandGen random(int max){

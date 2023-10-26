@@ -1,8 +1,4 @@
-package ex1;
-
-import ex1.Comparable;
-import ex1.MotComparable;
-import ex1.Sequencable;
+package tp4.ex1;
 
 public class SequenceMots implements Sequencable {
 

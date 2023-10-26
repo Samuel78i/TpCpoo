@@ -1,11 +1,11 @@
-package ex1;
+package tp4.ex1;
 
 public interface Sequencable {
-    public int longeur(); // Renvoie la longueur de la sequence
+    int longeur(); // Renvoie la longueur de la sequence
 
-    public Comparable get(int i); // Renvoie le ieme objet de la sequence
+    Comparable get(int i); // Renvoie le ieme objet de la sequence
 
-    public void echange(int i, int j); // Echange le ieme object avec le jieme objet
+    void echange(int i, int j); // Echange le ieme object avec le jieme objet
 
     default String affiche(){
         StringBuilder result = new StringBuilder();

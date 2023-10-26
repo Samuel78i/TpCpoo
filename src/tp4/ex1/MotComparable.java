@@ -1,4 +1,4 @@
-package ex1;
+package tp4.ex1;
 
 public class MotComparable implements Comparable{
     String mot ="";
@@ -14,10 +14,9 @@ public class MotComparable implements Comparable{
 
     @Override
     public boolean estPlusGrand(Comparable i) {
-        if(!(i.value() instanceof String)){
+        if(!(i.value() instanceof String test)){
             throw new IllegalArgumentException();
         }else {
-            String test = (String) i.value();
             return mot.length() > test.length();
         }
     }

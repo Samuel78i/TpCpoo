@@ -1,29 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e922fedd-b1fb-422e-af49-5ee2ae002d51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/samuel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TpCpoo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex1/Comparable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex1/MotComparable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex1/Sequencable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex1/SequenceMots.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex2/AriSuiteGen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex2/FiboGen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex2/GenLib.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex2/Generateur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex2/GeoSuiteGen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex2/RandGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/groupe5/Scanner2Iterable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/groupe5/ScannerIteratorAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex1/Comparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tp4/ex1/Comparable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tp4/ex1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex1/MotComparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tp4/ex1/MotComparable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex1/Sequencable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tp4/ex1/Sequencable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex1/SequenceMots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tp4/ex1/SequenceMots.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex2/AriSuiteGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tp4/ex2/AriSuiteGen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex2/FiboGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tp4/ex2/FiboGen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex2/GenLib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tp4/ex2/GenLib.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex2/Generateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tp4/ex2/Generateur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex2/GeoSuiteGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tp4/ex2/GeoSuiteGen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex2/RandGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tp4/ex2/RandGen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +40,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2WytKxWaoWCAaMESNWinP0A0ucJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -68,6 +67,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie",
     "vue.rearranger.settings.migration": "true"
   }
@@ -78,6 +78,19 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="Scanner2Iterable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="groupe5.Scanner2Iterable" />
+      <module name="TpCpoo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="groupe5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,6 +102,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Scanner2Iterable" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -100,6 +118,8 @@
       <updated>1697716589257</updated>
       <workItem from="1697716590248" duration="3819000" />
       <workItem from="1697720558536" duration="2188000" />
+      <workItem from="1698059809126" duration="5470000" />
+      <workItem from="1698310495647" duration="577000" />
     </task>
     <servers />
   </component>
@@ -110,7 +130,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ex1/MotComparable.java</url>
+          <url>file://$PROJECT_DIR$/src/tp4/ex1/MotComparable.java</url>
           <line>14</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
